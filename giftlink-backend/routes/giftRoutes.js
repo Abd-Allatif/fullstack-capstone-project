@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
     try {
-        const db = await connectToDatabase()
+        const db = await connectToDatabase();
 
         const collection = db.collection("gifts");
 
