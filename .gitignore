@@ -75,6 +75,13 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+# Environment files (keep example templates tracked)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
 # dotenv environment variable files
 .env.development.local
 .env.test.local
@@ -95,14 +102,14 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
+# Comment in the public line if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1.1
 # public
 
 # vuepress build output
 .vuepress/dist
 
-# vuepress v2.x temp and cache directory
+# vuepress v2.x temp and cache output
 .temp
 .cache
 
@@ -121,7 +128,7 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
+# Stores VSCode versions used to test VSCode extensions
 .vscode-test
 
 # yarn v2
